@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Random numbers</string>
+    <string name="range">Range</string>
+    <string name="gen">Generation</string>
+    <string name="reset">Reset</string>
+    <string name="rn_list">Picked list</string>
+    <string name="lottery_range">lottery_range</string>
+    <string name="cancel">cancel</string>
+    <string name="ok">ok</string>
+
+    <string name="reset_check">When the range is changed, the number drawn is reset.</string>
+    <string name="toast_cant_draw">You have selected all the numbers you can draw.</string>
+
+    <string name="admob_app_id">ca-app-pub-6152971656651547~1264702097</string>
+    <string name="banner_ad_unit_id">ca-app-pub-6152971656651547/3681421372</string>
+</resources>

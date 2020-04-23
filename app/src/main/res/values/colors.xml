@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <drawable name="button_bg">#888888</drawable>
+    <color name="button_text">#292929</color>
+    <drawable name="clicked_button_bg">#5F5F5F</drawable>
+    <color name="clicked_button_text">#000000</color>
+
+    <drawable name="default_bg">#363636</drawable>
+    <color name="default_text">#8D7AC4</color>
+</resources>

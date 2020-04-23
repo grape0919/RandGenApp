@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">숫자 뽑기</string>
+    <string name="range">범위</string>
+    <string name="gen">생성</string>
+    <string name="reset">초기화</string>
+    <string name="rn_list">뽑힌 숫자</string>
+    <string name="lottery_range">로또 번호</string>
+    <string name="cancel">취소</string>
+    <string name="ok">확인</string>
+
+    <string name="reset_check">범위 변경 시 뽑힌 숫자가 초기화 됩니다.</string>
+    <string name="toast_cant_draw">뽑을 수 있는 숫자를 모두 뽑았습니다.</string>
+
+    <string name="admob_app_id">ca-app-pub-6152971656651547~1264702097</string>
+    <string name="banner_ad_unit_id">ca-app-pub-6152971656651547/3681421372</string>
+
+</resources>
