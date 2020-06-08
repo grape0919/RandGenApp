@@ -27,7 +27,7 @@
                 android:layout_height="wrap_content" tools:layout_editor_absoluteY="115sp"
                 tools:ignore="MissingConstraints" />
 
-        <Button android:id="@+id/cancle_button"
+        <Button android:id="@+id/cancel_button"
                 android:layout_width="wrap_content" android:layout_height="wrap_content" tools:ignore="MissingConstraints"
                 tools:layout_editor_absoluteY="115sp"
                 android:text="@string/cancel"/>

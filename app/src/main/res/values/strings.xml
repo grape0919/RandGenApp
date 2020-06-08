@@ -5,9 +5,11 @@
     <string name="reset">Reset</string>
     <string name="rn_list">Picked list</string>
     <string name="lottery_range">lottery_range</string>
+    <string name="lottery">auto draw number</string>
     <string name="cancel">cancel</string>
     <string name="ok">ok</string>
-
+    <string name="request_fnc">Request function</string>
+    <string name="ad_load_message">Loading ad</string>
     <string name="reset_check">When the range is changed, the number drawn is reset.</string>
     <string name="toast_cant_draw">You have selected all the numbers you can draw.</string>
 

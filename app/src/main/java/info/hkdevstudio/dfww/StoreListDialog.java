@@ -2,11 +2,9 @@ package info.hkdevstudio.dfww;
 
 import android.app.Dialog;
 import android.content.Context;
-import android.text.Layout;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -32,7 +30,7 @@ public class StoreListDialog {
 
         picked_list = dlg.findViewById(R.id.picked_list);
         reset_button = dlg.findViewById(R.id.reset_button);
-        cancel = dlg.findViewById(R.id.cancle_button);
+        cancel = dlg.findViewById(R.id.cancel_button);
 
         LinearLayout.LayoutParams params2 = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.MATCH_PARENT);
