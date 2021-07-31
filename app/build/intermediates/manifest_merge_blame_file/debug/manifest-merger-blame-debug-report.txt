@@ -1,0 +1,123 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="info.hkdevstudio.dfww"
+4    android:versionCode="7"
+5    android:versionName="1.1.0.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\DELL\PLAYGROUND\hkdevstudio\Randomly_number_generator\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\DELL\PLAYGROUND\hkdevstudio\Randomly_number_generator\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\DELL\PLAYGROUND\hkdevstudio\Randomly_number_generator\app\src\main\AndroidManifest.xml:5:5-66
+11-->C:\Users\DELL\PLAYGROUND\hkdevstudio\Randomly_number_generator\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.android.gms:play-services-ads-lite:18.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\173ccdd85043f32a801f31d0056cd9ef\play-services-ads-lite-18.0.0\AndroidManifest.xml:24:5-79
+12-->[com.google.android.gms:play-services-ads-lite:18.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\173ccdd85043f32a801f31d0056cd9ef\play-services-ads-lite-18.0.0\AndroidManifest.xml:24:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.android.gms:play-services-measurement-sdk-api:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f037b9f5661cb15cb41f4c9dfd1988cd\play-services-measurement-sdk-api-17.0.0\AndroidManifest.xml:25:5-68
+13-->[com.google.android.gms:play-services-measurement-sdk-api:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f037b9f5661cb15cb41f4c9dfd1988cd\play-services-measurement-sdk-api-17.0.0\AndroidManifest.xml:25:22-65
+14    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+14-->[com.google.android.gms:play-services-measurement-sdk-api:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f037b9f5661cb15cb41f4c9dfd1988cd\play-services-measurement-sdk-api-17.0.0\AndroidManifest.xml:26:5-110
+14-->[com.google.android.gms:play-services-measurement-sdk-api:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f037b9f5661cb15cb41f4c9dfd1988cd\play-services-measurement-sdk-api-17.0.0\AndroidManifest.xml:26:22-107
+15
+16    <application
+16-->C:\Users\DELL\PLAYGROUND\hkdevstudio\Randomly_number_generator\app\src\main\AndroidManifest.xml:7:5-31:19
+17        android:allowBackup="true"
+17-->C:\Users\DELL\PLAYGROUND\hkdevstudio\Randomly_number_generator\app\src\main\AndroidManifest.xml:8:13-39
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.0.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\72b2b92ec4ab73ff21fb9bc348de3b22\core-1.0.1\AndroidManifest.xml:22:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_rn_launcher"
+20-->C:\Users\DELL\PLAYGROUND\hkdevstudio\Randomly_number_generator\app\src\main\AndroidManifest.xml:9:13-50
+21        android:label="@string/app_name"
+21-->C:\Users\DELL\PLAYGROUND\hkdevstudio\Randomly_number_generator\app\src\main\AndroidManifest.xml:10:13-45
+22        android:roundIcon="@mipmap/ic_rn_launcher_round"
+22-->C:\Users\DELL\PLAYGROUND\hkdevstudio\Randomly_number_generator\app\src\main\AndroidManifest.xml:11:13-61
+23        android:supportsRtl="true"
+23-->C:\Users\DELL\PLAYGROUND\hkdevstudio\Randomly_number_generator\app\src\main\AndroidManifest.xml:12:13-39
+24        android:theme="@style/AppTheme" >
+24-->C:\Users\DELL\PLAYGROUND\hkdevstudio\Randomly_number_generator\app\src\main\AndroidManifest.xml:13:13-44
+25        <meta-data
+25-->C:\Users\DELL\PLAYGROUND\hkdevstudio\Randomly_number_generator\app\src\main\AndroidManifest.xml:14:9-16:55
+26            android:name="com.google.android.gms.ads.APPLICATION_ID"
+26-->C:\Users\DELL\PLAYGROUND\hkdevstudio\Randomly_number_generator\app\src\main\AndroidManifest.xml:15:17-73
+27            android:value="@string/admob_app_id" />
+27-->C:\Users\DELL\PLAYGROUND\hkdevstudio\Randomly_number_generator\app\src\main\AndroidManifest.xml:16:17-53
+28
+29        <activity
+29-->C:\Users\DELL\PLAYGROUND\hkdevstudio\Randomly_number_generator\app\src\main\AndroidManifest.xml:18:9-26:20
+30            android:name="info.hkdevstudio.dfww.SplashActivity"
+30-->C:\Users\DELL\PLAYGROUND\hkdevstudio\Randomly_number_generator\app\src\main\AndroidManifest.xml:19:17-47
+31            android:theme="@style/Theme.AppCompat.NoActionBar" >
+31-->C:\Users\DELL\PLAYGROUND\hkdevstudio\Randomly_number_generator\app\src\main\AndroidManifest.xml:20:17-67
+32            <intent-filter>
+32-->C:\Users\DELL\PLAYGROUND\hkdevstudio\Randomly_number_generator\app\src\main\AndroidManifest.xml:21:13-25:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\DELL\PLAYGROUND\hkdevstudio\Randomly_number_generator\app\src\main\AndroidManifest.xml:22:17-68
+33-->C:\Users\DELL\PLAYGROUND\hkdevstudio\Randomly_number_generator\app\src\main\AndroidManifest.xml:22:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\DELL\PLAYGROUND\hkdevstudio\Randomly_number_generator\app\src\main\AndroidManifest.xml:24:17-76
+35-->C:\Users\DELL\PLAYGROUND\hkdevstudio\Randomly_number_generator\app\src\main\AndroidManifest.xml:24:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity
+38-->C:\Users\DELL\PLAYGROUND\hkdevstudio\Randomly_number_generator\app\src\main\AndroidManifest.xml:27:9-30:20
+39            android:name="info.hkdevstudio.dfww.MainActivity"
+39-->C:\Users\DELL\PLAYGROUND\hkdevstudio\Randomly_number_generator\app\src\main\AndroidManifest.xml:28:17-45
+40            android:theme="@style/Theme.AppCompat.NoActionBar" >
+40-->C:\Users\DELL\PLAYGROUND\hkdevstudio\Randomly_number_generator\app\src\main\AndroidManifest.xml:29:17-67
+41        </activity>
+42        <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+43        <activity
+43-->[com.google.android.gms:play-services-ads-lite:18.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\173ccdd85043f32a801f31d0056cd9ef\play-services-ads-lite-18.0.0\AndroidManifest.xml:29:9-33:64
+44            android:name="com.google.android.gms.ads.AdActivity"
+44-->[com.google.android.gms:play-services-ads-lite:18.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\173ccdd85043f32a801f31d0056cd9ef\play-services-ads-lite-18.0.0\AndroidManifest.xml:30:13-65
+45            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+45-->[com.google.android.gms:play-services-ads-lite:18.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\173ccdd85043f32a801f31d0056cd9ef\play-services-ads-lite-18.0.0\AndroidManifest.xml:31:13-122
+46            android:exported="false"
+46-->[com.google.android.gms:play-services-ads-lite:18.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\173ccdd85043f32a801f31d0056cd9ef\play-services-ads-lite-18.0.0\AndroidManifest.xml:32:13-37
+47            android:theme="@android:style/Theme.Translucent" />
+47-->[com.google.android.gms:play-services-ads-lite:18.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\173ccdd85043f32a801f31d0056cd9ef\play-services-ads-lite-18.0.0\AndroidManifest.xml:33:13-61
+48
+49        <provider
+49-->[com.google.android.gms:play-services-ads-lite:18.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\173ccdd85043f32a801f31d0056cd9ef\play-services-ads-lite-18.0.0\AndroidManifest.xml:35:9-39:39
+50            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+50-->[com.google.android.gms:play-services-ads-lite:18.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\173ccdd85043f32a801f31d0056cd9ef\play-services-ads-lite-18.0.0\AndroidManifest.xml:36:13-76
+51            android:authorities="info.hkdevstudio.dfww.mobileadsinitprovider"
+51-->[com.google.android.gms:play-services-ads-lite:18.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\173ccdd85043f32a801f31d0056cd9ef\play-services-ads-lite-18.0.0\AndroidManifest.xml:37:13-73
+52            android:exported="false"
+52-->[com.google.android.gms:play-services-ads-lite:18.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\173ccdd85043f32a801f31d0056cd9ef\play-services-ads-lite-18.0.0\AndroidManifest.xml:38:13-37
+53            android:initOrder="100" />
+53-->[com.google.android.gms:play-services-ads-lite:18.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\173ccdd85043f32a801f31d0056cd9ef\play-services-ads-lite-18.0.0\AndroidManifest.xml:39:13-36
+54
+55        <receiver
+55-->[com.google.android.gms:play-services-measurement-sdk-api:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f037b9f5661cb15cb41f4c9dfd1988cd\play-services-measurement-sdk-api-17.0.0\AndroidManifest.xml:29:9-37:20
+56            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+56-->[com.google.android.gms:play-services-measurement-sdk-api:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f037b9f5661cb15cb41f4c9dfd1988cd\play-services-measurement-sdk-api-17.0.0\AndroidManifest.xml:30:13-100
+57            android:enabled="true"
+57-->[com.google.android.gms:play-services-measurement-sdk-api:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f037b9f5661cb15cb41f4c9dfd1988cd\play-services-measurement-sdk-api-17.0.0\AndroidManifest.xml:31:13-35
+58            android:exported="true"
+58-->[com.google.android.gms:play-services-measurement-sdk-api:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f037b9f5661cb15cb41f4c9dfd1988cd\play-services-measurement-sdk-api-17.0.0\AndroidManifest.xml:32:13-36
+59            android:permission="android.permission.INSTALL_PACKAGES" >
+59-->[com.google.android.gms:play-services-measurement-sdk-api:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f037b9f5661cb15cb41f4c9dfd1988cd\play-services-measurement-sdk-api-17.0.0\AndroidManifest.xml:33:13-69
+60            <intent-filter>
+60-->[com.google.android.gms:play-services-measurement-sdk-api:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f037b9f5661cb15cb41f4c9dfd1988cd\play-services-measurement-sdk-api-17.0.0\AndroidManifest.xml:34:13-36:29
+61                <action android:name="com.android.vending.INSTALL_REFERRER" />
+61-->[com.google.android.gms:play-services-measurement-sdk-api:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f037b9f5661cb15cb41f4c9dfd1988cd\play-services-measurement-sdk-api-17.0.0\AndroidManifest.xml:35:17-79
+61-->[com.google.android.gms:play-services-measurement-sdk-api:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f037b9f5661cb15cb41f4c9dfd1988cd\play-services-measurement-sdk-api-17.0.0\AndroidManifest.xml:35:25-76
+62            </intent-filter>
+63        </receiver>
+64
+65        <meta-data
+65-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\90ff9717ca2fa3dbdc559150da15c128\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+66            android:name="com.google.android.gms.version"
+66-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\90ff9717ca2fa3dbdc559150da15c128\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+67            android:value="@integer/google_play_services_version" />
+67-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\90ff9717ca2fa3dbdc559150da15c128\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+68    </application>
+69
+70</manifest>
