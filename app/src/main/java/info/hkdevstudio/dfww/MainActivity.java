@@ -63,7 +63,7 @@ public class MainActivity extends Activity implements RewardedVideoAdListener{
         mAdView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
-        MobileAds.initialize(this, getString(R.string.admob_app_id));
+        //MobileAds.initialize(this, getString(R.string.admob_app_id));
         // Use an activity context to get the rewarded video instance.
         mRewardedVideoAd = MobileAds.getRewardedVideoAdInstance(this);
         mRewardedVideoAd.setRewardedVideoAdListener(this);
@@ -143,32 +143,33 @@ public class MainActivity extends Activity implements RewardedVideoAdListener{
             @Override
             public void onClick(View v) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-                builder.setTitle("번호 받기").setMessage("광고보고 로또 번호 받으세요!");
+                if (mRewardedVideoAd.isLoaded()) {
+                    builder.setTitle("번호 받기").setMessage("광고보고 로또 번호 받으세요!");
 
-                builder.setPositiveButton("확인", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
+                    builder.setPositiveButton("확인", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
 
-                        from.setText("1" );
-                        to.setText("45");
-                        picked_list.clear();
+                            from.setText("1" );
+                            to.setText("45");
+                            picked_list.clear();
 
-                        if (mRewardedVideoAd.isLoaded()) {
                             mRewardedVideoAd.show();
-                        }else{
-                            Toast.makeText(MainActivity.this, R.string.ad_load_message, Toast.LENGTH_SHORT).show();
+
                         }
+                    });
+                    builder.setNegativeButton("취소", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
 
-                    }
-                });
-                builder.setNegativeButton("취소", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
+                        }
+                    });
+                    AlertDialog alertDialog = builder.create();
+                    alertDialog.show();
+                }else{
+                    Toast.makeText(MainActivity.this, R.string.ad_load_message, Toast.LENGTH_SHORT).show();
+                }
 
-                    }
-                });
-                AlertDialog alertDialog = builder.create();
-                alertDialog.show();
             }
         });
 
@@ -298,7 +299,7 @@ public class MainActivity extends Activity implements RewardedVideoAdListener{
     }
 
     private void loadRewardedVideoAd() {
-        mRewardedVideoAd.loadAd("ca-app-pub-3940256099942544/5224354917",
+        mRewardedVideoAd.loadAd("ca-app-pub-6152971656651547/7697656576",
                 new AdRequest.Builder().build());
     }
     @Override
